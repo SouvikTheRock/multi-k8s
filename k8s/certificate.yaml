@@ -11,4 +11,3 @@ spec:
   commonName: multik8s.work.gd
   dnsNames:
     - multik8s.work.gd
-    - www.multik8s.work.gd
