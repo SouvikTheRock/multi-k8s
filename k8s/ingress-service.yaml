@@ -32,7 +32,7 @@ spec:
                 name: server-cluster-ip-service
                 port:
                   number: 5000
-    - host: multik8s.work.gd
+    - host: www.multik8s.work.gd
       http:
         paths:
           - path: /?(.*)
