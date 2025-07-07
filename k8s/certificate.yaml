@@ -1,0 +1,14 @@
+apiVersion: cert-manager.io/v1
+
+kind: Certificate
+metadata:
+  name: multik8s-work-gd-tls
+spec:
+  secretName: multik8s-work-gd
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: multik8s.work.gd
+  dnsNames:
+    - multik8s.work.gd
+    - www.multik8s.work.gd
